@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="System.Security.Cryptography.RSA">
+    <Position X="10.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Security.Cryptography.RSACryptoServiceProvider">
+    <Position X="13.5" Y="0.5" Width="2.25" />
+    <InheritanceLine Type="System.Security.Cryptography.RSA" FixedToPoint="true">
+      <Path>
+        <Point X="12.75" Y="2.688" />
+        <Point X="13.5" Y="2.688" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Security.Cryptography.AsymmetricAlgorithm">
+    <Position X="7" Y="0.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Security.Cryptography.DSA">
+    <Position X="3.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Security.Cryptography.DSACryptoServiceProvider">
+    <Position X="0.5" Y="0.5" Width="2.5" />
+    <InheritanceLine Type="System.Security.Cryptography.DSA" FixedFromPoint="true">
+      <Path>
+        <Point X="3.75" Y="2.75" />
+        <Point X="3" Y="2.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

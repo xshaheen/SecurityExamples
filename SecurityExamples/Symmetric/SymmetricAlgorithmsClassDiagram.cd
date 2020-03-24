@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="System.Security.Cryptography.Aes">
+    <Position X="12" Y="0.75" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Security.Cryptography.AesCryptoServiceProvider">
+    <Position X="13" Y="3" Width="2.25" />
+    <InheritanceLine Type="System.Security.Cryptography.Aes" FixedToPoint="true">
+      <Path>
+        <Point X="12.875" Y="2.175" />
+        <Point X="12.875" Y="2.625" />
+        <Point X="14.125" Y="2.625" />
+        <Point X="14.125" Y="3" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Security.Cryptography.AesManaged">
+    <Position X="10.75" Y="3" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Security.Cryptography.SymmetricAlgorithm">
+    <Position X="8" Y="0.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Security.Cryptography.DES">
+    <Position X="5.25" Y="0.75" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Security.Cryptography.DESCryptoServiceProvider">
+    <Position X="2.5" Y="0.75" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Security.Cryptography.TripleDES">
+    <Position X="5.25" Y="4.25" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Security.Cryptography.TripleDESCryptoServiceProvider">
+    <Position X="2.5" Y="3" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
